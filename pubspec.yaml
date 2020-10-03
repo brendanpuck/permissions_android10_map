@@ -1,0 +1,19 @@
+name: permission_handler_for_microphone_and_storage_on_Android_10
+description: Demonstrates how to use the permission_handler plugin for Android 10
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  permission_handler: 5.0.1+1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/
